@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage Manager</title>
+</head>
+
+<body>
+    <h1>Save Your Payment Information</h1>
+    <form id="payment-info">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+        <br>
+        <label for="baddress">Billing Address:</label>
+        <input type="text" id="baddress" name="baddress" required>
+        <br>
+        <label for="ccno">Credit Card Number:</label>
+        <input type="text" id="ccno" name="ccno" required>
+        <br>
+        <label for="zip">Zip Code:</label>
+        <input type="text" id="zip" name="zip" required>
+        <br>
+        <label for="exp">Expiry Date (MM/YY):</label>
+        <input type="text" id="exp" name="exp" pattern="[0-9]{2}/[0-9]{2}" required>
+        <br>
+        <label for="cvc">CVC:</label>
+        <input type="text" id="cvc" name="cvc" pattern="[0-9]{3}" required>
+        <br>
+        <button type="submit">Save Data</button>
+    </form>
+    <script src="popup.js"></script>
+</body>
+
+</html>
