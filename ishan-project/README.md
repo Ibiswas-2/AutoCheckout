@@ -2,7 +2,7 @@
 The function of the code, summarily, is a chrome extension classifying the content on webpages and identifying potential fields that indicate a checkout form as well as isolating the elements for further features to be built upon. Currently, it is focused on finding checkout pages to potentially autofill, but the code can very easily be adapted to find any category of elements in the DOM as it is fully accessible and fully customizable
 
 
-# **VIDEO DEMONSTRATION LINK: https://drive.google.com/file/d/1QwJngeRj3vtFdhc-qxd6pi9EUcoXM9vm/view?usp=drive_link**
+# VIDEO DEMONSTRATION LINK: https://drive.google.com/file/d/1QwJngeRj3vtFdhc-qxd6pi9EUcoXM9vm/view?usp=drive_link
 
 # INSTRUCTIONS
 - to install the backend `run npm install` in the backend folder, any version of node above 18 should work
